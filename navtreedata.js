@@ -9,7 +9,8 @@ var NAVTREE =
           [ "BDOC signature profiles", "manual.html#profiles", [
             [ "BDOC signature with time-mark", "manual.html#BDOC-TM", null ],
             [ "BDOC signature with time-stamp", "manual.html#BDOC-TS", null ]
-          ] ]
+          ] ],
+          [ "ASiC-S container format", "manual.html#asics", null ]
         ] ]
       ] ],
       [ "Release Notes", "manual.html#releasenotes", null ],
@@ -105,7 +106,8 @@ var NAVTREE =
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", null ],
+        [ "Functions", "functions_func.html", "functions_func" ],
+        [ "Variables", "functions_vars.html", null ],
         [ "Typedefs", "functions_type.html", null ],
         [ "Enumerations", "functions_enum.html", null ],
         [ "Enumerator", "functions_eval.html", null ]
@@ -117,7 +119,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"hierarchy.html"
+"classdigidoc_1_1XmlConf.html#ad22d1cea3d611df29a7cac545e3cdb62"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

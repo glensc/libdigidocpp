@@ -69,6 +69,7 @@ $(document).ready(function(){initNavTree('classdigidoc_1_1X509Cert.html','');});
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classdigidoc_1_1X509Cert-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">digidoc::X509Cert Class Reference</div>  </div>
@@ -128,6 +129,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a39969dfe3a79c4919558a2659322d8be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85fd4e9f21828dad6ef3a55bf9cf1d7c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdigidoc_1_1X509Cert.html#a85fd4e9f21828dad6ef3a55bf9cf1d7c">certificatePolicies</a> () const </td></tr>
 <tr class="separator:a85fd4e9f21828dad6ef3a55bf9cf1d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a016cbd2aaf5d2212adbf322a0f9d9955"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdigidoc_1_1X509Cert.html#a016cbd2aaf5d2212adbf322a0f9d9955">qcStatements</a> () const </td></tr>
+<tr class="separator:a016cbd2aaf5d2212adbf322a0f9d9955"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeae42ccd61adb6e82fbc42b9a66d951d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdigidoc_1_1X509Cert.html#aeae42ccd61adb6e82fbc42b9a66d951d">isCA</a> () const </td></tr>
 <tr class="separator:aeae42ccd61adb6e82fbc42b9a66d951d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3131857875013e761ae6b9398c8d1bd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdigidoc_1_1X509Cert.html#ac3131857875013e761ae6b9398c8d1bd">isValid</a> (time_t *t=0) const </td></tr>
@@ -146,6 +149,48 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2029dd72df04ef1b08b515c1e901ca8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe07ce51d3c58e3c30c4aeb06d248da1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdigidoc_1_1X509Cert.html#abe07ce51d3c58e3c30c4aeb06d248da1">operator!=</a> (const <a class="el" href="classdigidoc_1_1X509Cert.html">X509Cert</a> &amp;other) const </td></tr>
 <tr class="separator:abe07ce51d3c58e3c30c4aeb06d248da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24dad1227bc338f632c82bedc06b630b"><td class="memTemplParams" colspan="2">template&lt;typename Func &gt; </td></tr>
+<tr class="memitem:a24dad1227bc338f632c82bedc06b630b"><td class="memTemplItemLeft" align="right" valign="top">string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classdigidoc_1_1X509Cert.html#a24dad1227bc338f632c82bedc06b630b">toString</a> (Func func, const string &amp;obj) const </td></tr>
+<tr class="separator:a24dad1227bc338f632c82bedc06b630b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:ae8a28965e50c5ed98b9b4f85f0b701f3"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdigidoc_1_1X509Cert.html#ae8a28965e50c5ed98b9b4f85f0b701f3">QC_COMPLIANT</a> = &quot;0.4.0.1862.1.1&quot;</td></tr>
+<tr class="separator:ae8a28965e50c5ed98b9b4f85f0b701f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ad7414dd90b380f6b808c397b05e7cb"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdigidoc_1_1X509Cert.html#a0ad7414dd90b380f6b808c397b05e7cb">QC_SSCD</a> = &quot;0.4.0.1862.1.4&quot;</td></tr>
+<tr class="separator:a0ad7414dd90b380f6b808c397b05e7cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fafdd3f032dcef52b35e1918a70a0a0"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdigidoc_1_1X509Cert.html#a8fafdd3f032dcef52b35e1918a70a0a0">QC_QCP</a> = &quot;0.4.0.1862.1.5&quot;</td></tr>
+<tr class="separator:a8fafdd3f032dcef52b35e1918a70a0a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ff3356264f6aa9548d583d88de9fca9"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdigidoc_1_1X509Cert.html#a8ff3356264f6aa9548d583d88de9fca9">QC_QCT</a> = &quot;0.4.0.1862.1.6&quot;</td></tr>
+<tr class="separator:a8ff3356264f6aa9548d583d88de9fca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e46589362e1de5abff408a66ffb186c"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdigidoc_1_1X509Cert.html#a2e46589362e1de5abff408a66ffb186c">QC_SYNTAX1</a> = &quot;1.3.6.1.5.5.7.11.1&quot;</td></tr>
+<tr class="separator:a2e46589362e1de5abff408a66ffb186c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c4e516a37011ce0fef1840f342959eb"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdigidoc_1_1X509Cert.html#a0c4e516a37011ce0fef1840f342959eb">QC_SYNTAX2</a> = &quot;1.3.6.1.5.5.7.11.2&quot;</td></tr>
+<tr class="separator:a0c4e516a37011ce0fef1840f342959eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e8c72e18d1f8d90d736ef5770dffc34"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdigidoc_1_1X509Cert.html#a5e8c72e18d1f8d90d736ef5770dffc34">QCS_NATURAL</a> = &quot;0.4.0.194121.1.1&quot;</td></tr>
+<tr class="separator:a5e8c72e18d1f8d90d736ef5770dffc34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf12abbecbb87113a1ebf2b04e847e25"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdigidoc_1_1X509Cert.html#abf12abbecbb87113a1ebf2b04e847e25">QCS_LEGAL</a> = &quot;0.4.0.194121.1.2&quot;</td></tr>
+<tr class="separator:abf12abbecbb87113a1ebf2b04e847e25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94d7fbe830c670cf90e8f5db6220a441"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdigidoc_1_1X509Cert.html#a94d7fbe830c670cf90e8f5db6220a441">QCT_ESIGN</a> = &quot;0.4.0.1862.1.6.1&quot;</td></tr>
+<tr class="separator:a94d7fbe830c670cf90e8f5db6220a441"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a405a853195f59978736cb37e35fefa1a"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdigidoc_1_1X509Cert.html#a405a853195f59978736cb37e35fefa1a">QCT_ESEAL</a> = &quot;0.4.0.1862.1.6.2&quot;</td></tr>
+<tr class="separator:a405a853195f59978736cb37e35fefa1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9010b5ff851347df5d7b4d8ddd539267"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdigidoc_1_1X509Cert.html#a9010b5ff851347df5d7b4d8ddd539267">QCT_WEB</a> = &quot;0.4.0.1862.1.6.3&quot;</td></tr>
+<tr class="separator:a9010b5ff851347df5d7b4d8ddd539267"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada2ba2b1273e3ae76e3fcc408d9f0a1b"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdigidoc_1_1X509Cert.html#ada2ba2b1273e3ae76e3fcc408d9f0a1b">QCP_PUBLIC_WITH_SSCD</a> = &quot;0.4.0.1456.1.1&quot;</td></tr>
+<tr class="separator:ada2ba2b1273e3ae76e3fcc408d9f0a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd0beb9cc5c4acdc131ce4af39bb8ad4"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdigidoc_1_1X509Cert.html#abd0beb9cc5c4acdc131ce4af39bb8ad4">QCP_PUBLIC</a> = &quot;0.4.0.1456.1.2&quot;</td></tr>
+<tr class="separator:abd0beb9cc5c4acdc131ce4af39bb8ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acccd5cdd736359be8425537690d29074"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdigidoc_1_1X509Cert.html#acccd5cdd736359be8425537690d29074">QCP_NATURAL</a> = &quot;0.4.0.194112.1.0&quot;</td></tr>
+<tr class="separator:acccd5cdd736359be8425537690d29074"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3ec943f5e03326af8613be623da1aef"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdigidoc_1_1X509Cert.html#aa3ec943f5e03326af8613be623da1aef">QCP_LEGAL</a> = &quot;0.4.0.194112.1.1&quot;</td></tr>
+<tr class="separator:aa3ec943f5e03326af8613be623da1aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0f95abbd612616ebec1cef3dd8ca255"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdigidoc_1_1X509Cert.html#ab0f95abbd612616ebec1cef3dd8ca255">QCP_NATURAL_QSCD</a> = &quot;0.4.0.194112.1.2&quot;</td></tr>
+<tr class="separator:ab0f95abbd612616ebec1cef3dd8ca255"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a779348a27f0849b776cbbce513b0a2c4"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdigidoc_1_1X509Cert.html#a779348a27f0849b776cbbce513b0a2c4">QCP_LEGAL_QSCD</a> = &quot;0.4.0.194112.1.3&quot;</td></tr>
+<tr class="separator:a779348a27f0849b776cbbce513b0a2c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accd436a2ac508d7808a8815180dad8fe"><td class="memItemLeft" align="right" valign="top">static const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classdigidoc_1_1X509Cert.html#accd436a2ac508d7808a8815180dad8fe">QCP_WEB</a> = &quot;0.4.0.194112.1.4&quot;</td></tr>
+<tr class="separator:accd436a2ac508d7808a8815180dad8fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Wrapper for OpenSSL X509 certificate structure. </p>
@@ -234,6 +279,8 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+<p>Referenced by <a class="el" href="classdigidoc_1_1X509Cert.html#a19caf13e300e3ccfe25eb3f0bdfb51c6">X509Cert()</a>.</p>
 
 </div>
 </div>
@@ -388,7 +435,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>References <a class="el" href="classdigidoc_1_1X509Cert.html#a6562b7151f1372b8c30a1d380c4b6d3ba3b326d2573243c501348eabce1cc1365">Der</a>.</p>
+<p>References <a class="el" href="classdigidoc_1_1X509Cert.html#a6562b7151f1372b8c30a1d380c4b6d3ba3b326d2573243c501348eabce1cc1365">Der</a>, and <a class="el" href="classdigidoc_1_1X509Cert.html#af2202166a84e3ea1a248745fb13bb256">X509Cert()</a>.</p>
 
 </div>
 </div>
@@ -407,11 +454,16 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Move constructor. </p>
 
+<p>References <a class="el" href="classdigidoc_1_1X509Cert.html#a5380ee6e53e8c3d68bb4e3322cb045dc">~X509Cert()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a609677655ad0f8ddad689eab09b9d783"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">X509Cert::X509Cert </td>
@@ -421,6 +473,11 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>Copy constructor. </p>
 
@@ -429,6 +486,9 @@ Public Member Functions</h2></td></tr>
 <a class="anchor" id="a5380ee6e53e8c3d68bb4e3322cb045dc"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">X509Cert::~X509Cert </td>
@@ -437,8 +497,15 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>Clean up underlying X509 data. </p>
+
+<p>Referenced by <a class="el" href="classdigidoc_1_1X509Cert.html#a4995eb1f24c576b341d1812c7f9920fd">X509Cert()</a>.</p>
 
 </div>
 </div>
@@ -456,8 +523,6 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Returns current certificate policies </p>
-
-<p>Referenced by <a class="el" href="classdigidoc_1_1Signer.html#a992153ecbe88583bfbde60a59252ac8c">digidoc::Signer::method()</a>.</p>
 
 </div>
 </div>
@@ -596,6 +661,8 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Negative operator to check if object is valid </p>
 
+<p>References <a class="el" href="classdigidoc_1_1X509Cert.html#a896d0c271aad18a11c443fa82f21ca99">operator=()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="abe07ce51d3c58e3c30c4aeb06d248da1"></a>
@@ -620,6 +687,9 @@ Public Member Functions</h2></td></tr>
 <a class="anchor" id="a896d0c271aad18a11c443fa82f21ca99"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="classdigidoc_1_1X509Cert.html">X509Cert</a> &amp; X509Cert::operator= </td>
@@ -629,8 +699,15 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 <p>Assign operator to make copy of object </p>
+
+<p>Referenced by <a class="el" href="classdigidoc_1_1X509Cert.html#a0bdea928b56398c52573fe48b98936a9">operator!()</a>.</p>
 
 </div>
 </div>
@@ -667,6 +744,24 @@ Public Member Functions</h2></td></tr>
 <p>Equal operator to compare two objects </p>
 
 <p>Referenced by <a class="el" href="classdigidoc_1_1X509Cert.html#abe07ce51d3c58e3c30c4aeb06d248da1">operator!=()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a016cbd2aaf5d2212adbf322a0f9d9955"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vector&lt; string &gt; X509Cert::qcStatements </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Return QCStatements info <a href="https://www.ietf.org/rfc/rfc3739.txt">https://www.ietf.org/rfc/rfc3739.txt</a> </p>
+
+<p>References <a class="el" href="classdigidoc_1_1X509Cert.html#a8ff3356264f6aa9548d583d88de9fca9">QC_QCT</a>, and <a class="el" href="classdigidoc_1_1X509Cert.html#a0c4e516a37011ce0fef1840f342959eb">QC_SYNTAX2</a>.</p>
 
 </div>
 </div>
@@ -721,6 +816,432 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a24dad1227bc338f632c82bedc06b630b"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Func &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">string digidoc::X509Cert::toString </td>
+          <td>(</td>
+          <td class="paramtype">Func&#160;</td>
+          <td class="paramname"><em>func</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>obj</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Converts X509_NAME struct to string.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">func</td><td>X509_NAME struct that is converted to string. </td></tr>
+    <tr><td class="paramname">obj</td><td>Optional parameter to get from X509_NAME (default CN). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>converted value of X509_NAME. </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classdigidoc_1_1Exception.html" title="Base exception class of the digidoc implementation. ">Exception</a></td><td>throws exception if conversion failed. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="ae8a28965e50c5ed98b9b4f85f0b701f3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string X509Cert::QC_COMPLIANT = &quot;0.4.0.1862.1.1&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><a href="https://www.ietf.org/rfc/rfc3739.txt">https://www.ietf.org/rfc/rfc3739.txt</a> - id-etsi-qcs-QcCompliance </p>
+
+</div>
+</div>
+<a class="anchor" id="a8fafdd3f032dcef52b35e1918a70a0a0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string X509Cert::QC_QCP = &quot;0.4.0.1862.1.5&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><a href="https://www.ietf.org/rfc/rfc3739.txt">https://www.ietf.org/rfc/rfc3739.txt</a> - id-etsi-qcs-QcPDS </p>
+
+</div>
+</div>
+<a class="anchor" id="a8ff3356264f6aa9548d583d88de9fca9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string X509Cert::QC_QCT = &quot;0.4.0.1862.1.6&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><a href="https://www.ietf.org/rfc/rfc3739.txt">https://www.ietf.org/rfc/rfc3739.txt</a> - id-etsi-qcs-QcType </p>
+
+<p>Referenced by <a class="el" href="classdigidoc_1_1X509Cert.html#a016cbd2aaf5d2212adbf322a0f9d9955">qcStatements()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0ad7414dd90b380f6b808c397b05e7cb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string X509Cert::QC_SSCD = &quot;0.4.0.1862.1.4&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><a href="https://www.ietf.org/rfc/rfc3739.txt">https://www.ietf.org/rfc/rfc3739.txt</a> - id-etsi-qcs-QcSSCD </p>
+
+</div>
+</div>
+<a class="anchor" id="a2e46589362e1de5abff408a66ffb186c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string X509Cert::QC_SYNTAX1 = &quot;1.3.6.1.5.5.7.11.1&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><a href="https://www.ietf.org/rfc/rfc3739.txt">https://www.ietf.org/rfc/rfc3739.txt</a> - id-qcs-pkixQCSyntax-v1 </p>
+
+</div>
+</div>
+<a class="anchor" id="a0c4e516a37011ce0fef1840f342959eb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string X509Cert::QC_SYNTAX2 = &quot;1.3.6.1.5.5.7.11.2&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><a href="https://www.ietf.org/rfc/rfc3739.txt">https://www.ietf.org/rfc/rfc3739.txt</a> - id-qcs-pkixQCSyntax-v2 </p>
+
+<p>Referenced by <a class="el" href="classdigidoc_1_1X509Cert.html#a016cbd2aaf5d2212adbf322a0f9d9955">qcStatements()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa3ec943f5e03326af8613be623da1aef"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string X509Cert::QCP_LEGAL = &quot;0.4.0.194112.1.1&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><a href="http://www.etsi.org/deliver/etsi_en/319400_319499/31941102/02.01.01_60/en_31941102v020101p.pdf">http://www.etsi.org/deliver/etsi_en/319400_319499/31941102/02.01.01_60/en_31941102v020101p.pdf</a> </p>
+
+</div>
+</div>
+<a class="anchor" id="a779348a27f0849b776cbbce513b0a2c4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string X509Cert::QCP_LEGAL_QSCD = &quot;0.4.0.194112.1.3&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><a href="http://www.etsi.org/deliver/etsi_en/319400_319499/31941102/02.01.01_60/en_31941102v020101p.pdf">http://www.etsi.org/deliver/etsi_en/319400_319499/31941102/02.01.01_60/en_31941102v020101p.pdf</a> </p>
+
+</div>
+</div>
+<a class="anchor" id="acccd5cdd736359be8425537690d29074"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string X509Cert::QCP_NATURAL = &quot;0.4.0.194112.1.0&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><a href="http://www.etsi.org/deliver/etsi_en/319400_319499/31941102/02.01.01_60/en_31941102v020101p.pdf">http://www.etsi.org/deliver/etsi_en/319400_319499/31941102/02.01.01_60/en_31941102v020101p.pdf</a> </p>
+
+</div>
+</div>
+<a class="anchor" id="ab0f95abbd612616ebec1cef3dd8ca255"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string X509Cert::QCP_NATURAL_QSCD = &quot;0.4.0.194112.1.2&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><a href="http://www.etsi.org/deliver/etsi_en/319400_319499/31941102/02.01.01_60/en_31941102v020101p.pdf">http://www.etsi.org/deliver/etsi_en/319400_319499/31941102/02.01.01_60/en_31941102v020101p.pdf</a> </p>
+
+</div>
+</div>
+<a class="anchor" id="abd0beb9cc5c4acdc131ce4af39bb8ad4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string X509Cert::QCP_PUBLIC = &quot;0.4.0.1456.1.2&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><a href="http://www.etsi.org/deliver/etsi_ts/101400_101499/101456/01.04.03_60/ts_101456v010403p.pdf">http://www.etsi.org/deliver/etsi_ts/101400_101499/101456/01.04.03_60/ts_101456v010403p.pdf</a> </p>
+
+</div>
+</div>
+<a class="anchor" id="ada2ba2b1273e3ae76e3fcc408d9f0a1b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string X509Cert::QCP_PUBLIC_WITH_SSCD = &quot;0.4.0.1456.1.1&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><a href="http://www.etsi.org/deliver/etsi_ts/101400_101499/101456/01.04.03_60/ts_101456v010403p.pdf">http://www.etsi.org/deliver/etsi_ts/101400_101499/101456/01.04.03_60/ts_101456v010403p.pdf</a> </p>
+
+</div>
+</div>
+<a class="anchor" id="accd436a2ac508d7808a8815180dad8fe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string X509Cert::QCP_WEB = &quot;0.4.0.194112.1.4&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><a href="http://www.etsi.org/deliver/etsi_en/319400_319499/31941102/02.01.01_60/en_31941102v020101p.pdf">http://www.etsi.org/deliver/etsi_en/319400_319499/31941102/02.01.01_60/en_31941102v020101p.pdf</a> </p>
+
+</div>
+</div>
+<a class="anchor" id="abf12abbecbb87113a1ebf2b04e847e25"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string X509Cert::QCS_LEGAL = &quot;0.4.0.194121.1.2&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><a href="http://www.etsi.org/deliver/etsi_en/319400_319499/31941201/01.01.01_60/en_31941201v010101p.pdf">http://www.etsi.org/deliver/etsi_en/319400_319499/31941201/01.01.01_60/en_31941201v010101p.pdf</a> - id-etsi-qcs-semanticsId-legal </p>
+
+</div>
+</div>
+<a class="anchor" id="a5e8c72e18d1f8d90d736ef5770dffc34"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string X509Cert::QCS_NATURAL = &quot;0.4.0.194121.1.1&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><a href="http://www.etsi.org/deliver/etsi_en/319400_319499/31941201/01.01.01_60/en_31941201v010101p.pdf">http://www.etsi.org/deliver/etsi_en/319400_319499/31941201/01.01.01_60/en_31941201v010101p.pdf</a> - id-etsi-qcs-semanticsId-natural </p>
+
+</div>
+</div>
+<a class="anchor" id="a405a853195f59978736cb37e35fefa1a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string X509Cert::QCT_ESEAL = &quot;0.4.0.1862.1.6.2&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><a href="http://www.etsi.org/deliver/etsi_en/319400_319499/31941205/02.01.01_60/en_31941205v020101p.pdf">http://www.etsi.org/deliver/etsi_en/319400_319499/31941205/02.01.01_60/en_31941205v020101p.pdf</a> - id-etsi-qct-eseal </p>
+
+</div>
+</div>
+<a class="anchor" id="a94d7fbe830c670cf90e8f5db6220a441"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string X509Cert::QCT_ESIGN = &quot;0.4.0.1862.1.6.1&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><a href="http://www.etsi.org/deliver/etsi_en/319400_319499/31941205/02.01.01_60/en_31941205v020101p.pdf">http://www.etsi.org/deliver/etsi_en/319400_319499/31941205/02.01.01_60/en_31941205v020101p.pdf</a> - id-etsi-qct-esign </p>
+
+</div>
+</div>
+<a class="anchor" id="a9010b5ff851347df5d7b4d8ddd539267"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string X509Cert::QCT_WEB = &quot;0.4.0.1862.1.6.3&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><a href="http://www.etsi.org/deliver/etsi_en/319400_319499/31941205/02.01.01_60/en_31941205v020101p.pdf">http://www.etsi.org/deliver/etsi_en/319400_319499/31941205/02.01.01_60/en_31941205v020101p.pdf</a> - id-etsi-qct-web </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>X509Cert.h</li>
 <li>X509Cert.cpp</li>
@@ -731,7 +1252,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacedigidoc.html">digidoc</a></li><li class="navelem"><a class="el" href="classdigidoc_1_1X509Cert.html">X509Cert</a></li>
-    <li class="footer">Generated on Mon Feb 29 2016 12:08:08 for libdigidocpp by
+    <li class="footer">Generated on Wed Jun 14 2017 16:51:25 for libdigidocpp by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>
