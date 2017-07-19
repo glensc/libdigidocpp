@@ -638,5 +638,5 @@ void TSL::validateRemoteDigest(const std::string &url, int timeout)
     }
 
     if(!digest.empty() && digest != sha.result())
-        THROW("Remote digest does not match");
+        THROW("Trust list checksum is not correct. Certificate authority status might be outdated.");
 }
