@@ -10,7 +10,7 @@ var classdigidoc_1_1Container =
     [ "create", "classdigidoc_1_1Container.html#af52819cb6bb683057599b5b537e2f9d6", null ],
     [ "dataFiles", "classdigidoc_1_1Container.html#a43aab553405e4ebd2a33c13e8a372981", null ],
     [ "mediaType", "classdigidoc_1_1Container.html#adc4ab4ee3df6264f80fce9cbdeefe053", null ],
-    [ "newSignatureId", "classdigidoc_1_1Container.html#ac8cef272a60934648380f19e66f227f6", null ],
+    [ "newSignatureId", "classdigidoc_1_1Container.html#a7c36c85e85ed9c8cccf00ca4795630ce", null ],
     [ "open", "classdigidoc_1_1Container.html#a30efc4cd037d1bbb49fae579ff28e48b", null ],
     [ "prepareSignature", "classdigidoc_1_1Container.html#a97e89d2705abf6e66998dc164b0301b8", null ],
     [ "removeDataFile", "classdigidoc_1_1Container.html#a3e4d73c8c9988c79b74e90d2d2315777", null ],

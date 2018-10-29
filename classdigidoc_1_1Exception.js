@@ -1,6 +1,6 @@
 var classdigidoc_1_1Exception =
 [
-    [ "Causes", "classdigidoc_1_1Exception.html#a5bd41b647ad25679637247fce1dee948", null ],
+    [ "Causes", "classdigidoc_1_1Exception.html#a182d610ce2d743e3d46099de19a55916", null ],
     [ "ExceptionCode", "classdigidoc_1_1Exception.html#a7a400013d0a2fb36b1978bc427d0b754", [
       [ "General", "classdigidoc_1_1Exception.html#a7a400013d0a2fb36b1978bc427d0b754adf2945bf57405a9a47321fc4e9161c3b", null ],
       [ "CertificateIssuerMissing", "classdigidoc_1_1Exception.html#a7a400013d0a2fb36b1978bc427d0b754aa2e0674312b757d97de9ddf7ec9958df", null ],
@@ -19,19 +19,24 @@ var classdigidoc_1_1Exception =
       [ "DataFileNameSpaceWarning", "classdigidoc_1_1Exception.html#a7a400013d0a2fb36b1978bc427d0b754adb9d178d18df5b2f2148e411cd157ec9", null ],
       [ "IssuerNameSpaceWarning", "classdigidoc_1_1Exception.html#a7a400013d0a2fb36b1978bc427d0b754a219949393ee702f74205f9f676a21ef0", null ],
       [ "ProducedATLateWarning", "classdigidoc_1_1Exception.html#a7a400013d0a2fb36b1978bc427d0b754a83adc4b59601ba09b0db3511730511eb", null ],
+      [ "MimeTypeWarning", "classdigidoc_1_1Exception.html#a7a400013d0a2fb36b1978bc427d0b754a75c6bd7f282fdd2a363103abb93feb07", null ],
       [ "DDocError", "classdigidoc_1_1Exception.html#a7a400013d0a2fb36b1978bc427d0b754a672aa83e8378bf85e03e79d165d1fdb5", null ]
     ] ],
     [ "Exception", "classdigidoc_1_1Exception.html#a36adf124d57528e7ca151c5c66e54343", null ],
     [ "Exception", "classdigidoc_1_1Exception.html#a95d9f9bfb01ff5ec53ae99820c90bfeb", null ],
+    [ "Exception", "classdigidoc_1_1Exception.html#ae0fd52e62283ee92c085d767d0aab736", null ],
+    [ "Exception", "classdigidoc_1_1Exception.html#ac30ed1f3fd4b6c979dcfe39d10ae6824", null ],
     [ "~Exception", "classdigidoc_1_1Exception.html#a6b214cd8627d0968bdeebc1fbb9556b8", null ],
     [ "addCause", "classdigidoc_1_1Exception.html#a733f4839af4612e307f2fc6cebd1d08b", null ],
     [ "addWarningIgnore", "classdigidoc_1_1Exception.html#affa18639079cbcaa93b32698da69e173", null ],
-    [ "causes", "classdigidoc_1_1Exception.html#af1fffa74328e1c6a63d797e2885f7655", null ],
-    [ "code", "classdigidoc_1_1Exception.html#a8c4c8484c24d60e43ac74117745ea7fc", null ],
-    [ "file", "classdigidoc_1_1Exception.html#aa6a6488086fa5a79cfabd296df6bdd0e", null ],
+    [ "causes", "classdigidoc_1_1Exception.html#a3f3251fd0a61ed3dbb07235535fb09cc", null ],
+    [ "code", "classdigidoc_1_1Exception.html#ab3bea7ae7c8769cd4939937762876cd5", null ],
+    [ "file", "classdigidoc_1_1Exception.html#ae87df780e3b642aa8d5a816a4ecefbf2", null ],
     [ "hasWarningIgnore", "classdigidoc_1_1Exception.html#a735ba92654f5169dc6e1f4eb7bb73aa7", null ],
-    [ "line", "classdigidoc_1_1Exception.html#a57a6ed93ebbbe28c68920313b580b28b", null ],
-    [ "msg", "classdigidoc_1_1Exception.html#a19e5db20cc2ae4301161b03efb0c9aa9", null ],
+    [ "line", "classdigidoc_1_1Exception.html#a488c8f90a8e9d9e241d1577c77be93cb", null ],
+    [ "msg", "classdigidoc_1_1Exception.html#a15b204bdfbebb71719ad8f40c37c819b", null ],
+    [ "operator=", "classdigidoc_1_1Exception.html#a55b0cd5ce82cdddd1b94d482e5ee618f", null ],
+    [ "operator=", "classdigidoc_1_1Exception.html#a27295c79fcee9e1ccd8371b942243e10", null ],
     [ "setCode", "classdigidoc_1_1Exception.html#a4d4ff85ccb274ead0eee6074c7e7a6f1", null ],
     [ "setWarningIgnoreList", "classdigidoc_1_1Exception.html#a6d5d18d0bac4ab852e04ed50f03b4fc0", null ]
 ];
